@@ -16,7 +16,7 @@
 - Знакомство с системой контроля версия Git
 - Работа в Unix shell
 6. **Протокол**: 
-`aschapov@Lenovo-ideapad-720S-14IKB:~$ mkdir inf_labs
+```aschapov@Lenovo-ideapad-720S-14IKB:~$ mkdir inf_labs
 aschapov@Lenovo-ideapad-720S-14IKB:~$ cd /home/aschapov/inf_labs
 aschapov@Lenovo-ideapad-720S-14IKB:~/inf_labs$ git init
 hint: Using 'master' as the name for the initial branch. This default branch name
@@ -140,6 +140,7 @@ aschapov@Lenovo-ideapad-720S-14IKB:~/inf_labs$ git commit -m "Edit report"
  create mode 100644 lw_8/Report-template.md
  create mode 100644 lw_9/Report-template.md
 aschapov@Lenovo-ideapad-720S-14IKB:~/inf_labs$ git merge task
-Already up to date.`
+Already up to date.
+```
 7. **Замечания автора** Отсутствуют
 8. **Выводы**: Выполнив данную работу, я получил базовые навыки работы с командной строкой unix и системой контроля версий Git. Я уверен, что в будущем мне пригодятся полученные знания, так как без системы контроля версий не обходится ни один it-проект, а знание bash является весомым преимуществом при приёме на должность разработчика или аналитика данных. 
