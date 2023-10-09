@@ -1,4 +1,4 @@
-'''
+```
 aschapov@Lenovo-ideapad-720S-14IKB:~$ cd inf_labs
 aschapov@Lenovo-ideapad-720S-14IKB:~/inf_labs$ cd lw_2
 aschapov@Lenovo-ideapad-720S-14IKB:~/inf_labs/lw_2$ who
@@ -522,5 +522,5 @@ Connection to 185.5.249.140 closed.
 aschapov@Lenovo-ideapad-720S-14IKB:~/inf_labs/lw_2$ scp a_shiapov@185.5.249.140:/home/a_shiapov/listing.md /home/aschapov/inf_labs/
 a_shiapov@185.5.249.140's password: 
 listing.md                              100%   32KB   2.4MB/s   00:00    
-'''
+```
 
