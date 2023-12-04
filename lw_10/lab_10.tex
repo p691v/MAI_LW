@@ -1,0 +1,96 @@
+\documentclass[10pt]{article}
+\usepackage{amsmath,amsthm,amssymb}
+%\usepackage{mathtext}
+\usepackage[T1,T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english, russian]{babel}
+\usepackage{setspace}
+\usepackage{geometry}
+\geometry{b5paper, textwidth=300pt, top=70pt, left=83pt, right=83pt, bottom=50pt}
+\usepackage{ragged2e}
+\usepackage{tikz}
+\setlength{\parindent}{16pt}
+\setlength{\baselineskip}{11pt}
+\setlength{\lineskip}{5pt}
+\setlength{\lineskiplimit}{3pt}
+\thispagestyle{empty}
+%\usepackage{parskip}
+%\usefont{T2A}{PTSerifCaption-TLF}{m}{n}
+%\usepackage{bookman}
+\usepackage{tempora}
+\renewcommand{\rmdefault}{PTSerifCaption-TLF}
+%\renewcommand{\rmdefault}{bookman}
+%\usepackage{lh-lcy}
+\justifying
+\begin{document}
+%    \leftskip 0pt plus 1fill
+%    \rightskip 0pt plus 1fill
+%    \vspace{20pt}
+%    {\fontfamily{Schoolbook}\selectfont
+    \noindent где $k = 0$, если $x \geqslant 0$; $k = 1$, если $x < 0$, $y > 0$, и $k = -1$, если\linebreak
+    $x < 0$, $y < 0$; при этом, как обычно, при $x = 0$, $y = 0$ считается\linebreak
+    \textbf{$\arctg\,${\Large$\frac{y}{x}$}~ $=$~ {\Large$\frac{\pi}{2}$}$sign \:y.$}%}
+
+%    \bfseries
+%    {\fontfamily{SCB1}\selectfont
+    Иногда на угол $\varphi$ не накладывают ограничения $-\pi\,<\,\varphi\,\leqslant\,\pi$,\linebreak
+    а~обозначают через $\varphi$ любой угол, для которого $\tg\,\varphi$$\ =\ ${\Large $\frac{y}{x}.$}\linebreak
+    В~этом~случае~соответствие между упорядоченными парами\linebreak
+    $(\rho, \varphi)\,$,\,$\rho\,\neq\,0$,~и~точками~плоскости, отличными от начала ко\-ординат,
+    уже, очевидно, не является взаимно однозначным.
+
+%    \mdseries
+    Если задана непрерывная функция
+%    \begin{equation}
+%        \mathrm{\large{\rho=\rho(\varphi), \alpha \leqslant \varphi \leqslant \beta,}} \tag{17.30}
+%    \end{equation}
+    \[\large{\mathrm{\rho=\rho(\varphi), \alpha \leqslant \varphi \leqslant \beta,}} \eqno(17.29)\]
+    то, подставляя ее в (17.28), получаем
+    \[\large x = \rho(\varphi)\cos \varphi, y = \rho(\varphi)\sin \varphi, \eqno(17.30)\]
+    т. е. параметрическое представление некоторой кривой Г.\linebreak
+    В этом смысле можно говорить, что уравнение (17.29) задает\linebreak
+    в полярных координатах кривую Г.\; Для вычисления кри-\linebreakвизны,
+    радиуса кривизны и эволюты кривой Г, заданной\linebreak
+    уравнением (17.29), надо перейти к ее параметрическому\linebreak
+    представлению (17.30) и воспользоваться выведенными выше формулами.\\
+
+    \vspace{-2pt}
+    \noindent \footnotesize{\textit{УПРАЖНЕНИЯ.\:2}.\,Пусть в полярных координатах задана кривая $\rho = \rho(\varphi)$,\linebreak
+    пусть $\alpha$ - угол наклона ее касательной к оси $Ox$, а $\omega$ - угол, образован-\linebreakный
+    этой касательной с продолжением радиус-вектора точки касания.\linebreak
+    Доказать, что {\small$\alpha = \omega + \varphi$} и {\small$\tg \omega = $}{\normalsize$\frac{\rho}{\rho\prime}$}.}
+
+    \noindent \footnotesize{\textit{3}.\,Найти эволюту кривой {\small$\rho = \alpha(1 + \cos\varphi), 0 \leqslant \varphi \leqslant 2\pi$}, называемой карди-\linebreakоидой.}
+
+%    \setlength{\lineskip}{5pt plus5pt minus5pt}
+    \begin{spacing}{1.4}
+    \fontfamily{cmr}\selectfont
+    {\small\textsc{Указание.}} Воспользоваться результатами упражнений 1 и 2.
+    \end{spacing}
+
+    \vspace{-2pt}
+    \begin{spacing}{1.0}
+    \fontfamily{Tempora-TLF}\selectfont
+    \normalsize{\textbf{Задача 14.}} \footnotesize{Пусть Г --- дважды дифференцируемая кривая без осо-\linebreakбых
+    точек, Г $= \{r(t);\!a\!\leqslant\!t\!\leqslant b\}$, и пусть $t_0\!\in\![a, b],\!t_0\!+\!\Delta t_1\!\in\![a, b],\!t_0\!+\!\Delta t_2\!\in$\linebreak
+    $\in\![a, b].$ Проведем через точки $r(t_0),\,r(t_0\!+\!\Delta t_1)$ и $r(t_0\!+\!\Delta t_2)$ плоскость; до-\linebreak
+    казать, что если в точке $r(t_0)$ кривизна $k\!\neq\!0$, то при $\Delta t_1\!\rightarrow\!0$ и $\Delta t_2\!\rightarrow\!0$ эта\linebreak
+    плоскость стремится (определите это понятие) к соприкасающейся плос-\linebreak
+    кости в точке $\,r(t_0)$.}
+    \end{spacing}
+
+    \vspace{5pt}
+    \fontfamily{Tempora-TLF}\selectfont
+    \normalsize{\textbf{Задача 15.}\,} \footnotesize{В предположении предыдущей задачи проведем через\linebreak
+    те же три точки $r(t_0),\,r(t_0\!+\!\Delta t_1)$ и $r(t_0\!+\!\Delta t_2)$ окружность. Доказать, что\linebreak
+    эта окружность при $\Delta t_1\!\rightarrow\!0$ и $\Delta t_2\!\rightarrow\!0$ стремится к окружности (опреде-\linebreak
+%    \vspace{2pt}
+    \\
+    \normalsize
+    \centerline{
+        \begin{tikzpicture}
+            \draw (0,0) -- (1.75,0);
+        \end{tikzpicture}
+    }\\
+    \centerline{\textit{443}}
+\end{document}
